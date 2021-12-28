@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Fonte e Cores</title>
+</head>
+<body>
+    <header>
+        <div id="verde">No mundo da programação, devemos além de aprender...</div><br><hr noshade>
+        <div id="vermelho">Devemos também exercitar o número máximo de vezes para que o conhecimento não caia no esquecimento...</div><br><hr noshade>
+        <div id="azul">Tal como ocorre comigo no que se refere a programação, preciso conseguir fixar melhor o que aprendo acerca de programação. </div><br><hr noshade>
+    </header>
+</body>
+</html>
+
+<!-Aqui inicia o estilo/CSS->
+header{
+    width: 100%;
+}
+
+header #verde{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+header #vermelho{
+    font-family: Cambria;
+    color: rgb(255, 9, 9);
+}
+header #azul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+
+}
