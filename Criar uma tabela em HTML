@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <!--Para definir o estilo utilizado na tabela, deve-se iniciar com a tag Style-->
+    <style>
+        table,th,td{border: solid black; width: 1px;}
+    </style>
+</head>
+<body>
+    <table style="width: 40%;">
+        <tr>
+            <th colspan="3"; style="background-color: blue;">Cadastro</th> <!--Para utilizar mais de uma coluna, utilize o colspan-->
+        </tr>
+        <tr><td>Nome</td>
+            <td>Idade</td>
+            <td>Sexo</td>
+        </tr>
+
+        <tr><td>Izaias</td>
+            <td>32</td>
+            <td>Masculino</td>
+        </tr>
+        <tr><th colspan="3"; style="background-color: blue;">Encerrado!!!</th></tr>
+    </table>
+</body>
+</html>
